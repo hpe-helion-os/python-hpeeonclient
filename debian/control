@@ -1,0 +1,15 @@
+Source: python-eonclient
+Section: unknown
+Priority: extra
+Maintainer: Eon <hpcloud@hp.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: https://review.hpcloud.net/#/admin/projects/hp/python-eonclient
+#Vcs-Git: git://git.debian.org/collab-maint/python-eonclient.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/python-eonclient.git;a=summary
+
+Package: python-eonclient
+Architecture: all
+Depends: python-keystoneclient (>= 0.7.0)
+Description: Python bindings to eon api
+ Python bindings for esx onboarder service (eon) and CLI package

@@ -1,0 +1,3 @@
+bin/*
+eonclient/* /usr/share/pyshared/eonclient/
+
